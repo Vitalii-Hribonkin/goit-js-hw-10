@@ -1,0 +1,93 @@
+.label{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+    }
+
+.input-box{
+    border: 1px solid #808080;
+        border-radius: 4px;
+        width: 360px;
+        height: 40px;
+        position: absolute;
+        top: 32px;
+        left: 8px;
+}
+
+.input-box:hover{
+    border: 1px solid #000;
+}
+
+.input-box:focus{
+    border: 1px solid #4e75ff;
+}
+
+.fieldset{
+    margin-top: 64px;
+    border-radius: 4px;
+        stroke-width: 1px;
+        stroke: #808080;
+        width: 360px;
+            height: 64px;
+            padding: 0;
+}
+
+.fieldset:hover{
+    stroke: #000;
+}
+
+.legend{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        margin-left: 28px;
+}
+
+.input-row{
+    border: 1px solid #757575;
+        border-radius: 14px;
+        width: 20px;
+        height: 20px;
+}
+
+.input-row:hover{
+    border: 1px solid #000;
+}
+
+.input-row:active{
+    background: #4e75ff;
+}
+
+.label-second{
+font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2e2f42;
+}
+
+.btn{
+    border-radius: 8px;
+        padding: 8px 16px;
+        width: 360px;
+        height: 40px;
+        background: #4e75ff;
+        font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.04em;
+            color: #fff;
+            padding: 0;
+            margin-top: 24px;
+}
+
+.btn:hover{
+    background: #6c8cff;
+}
